@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/repkam.css">
+	<link rel="stylesheet" href="/inc/css/repkam.css">
 
 	<script>
 		if ('serviceWorker' in navigator) {
@@ -22,36 +22,13 @@
 
 <body>
 
-	<header class="page-header">
-		<h2>
-			<a href="#">Mark R. Repka</a>
-		</h2>
-		<nav>
-			<li>
-				<a href="/">Home</a>
-			</li>
-			<li>
-				<a href="/projects">Projects</a>
-			</li>
-			<li>
-				<a href="/about">About</a>
-			</li>
-			<li>
-				<a href="/contact">Contact</a>
-			</li>
-		</nav>
-	</header>
+	<header class="page-header" id="page-header"></header>
 
-
-	<section class="hero">
+	<section class="hero" id="index-hero">
 		<div class="background-image"></div>
-		<h1>Hi, I'm Mark Repka</h1>
-		<h3>I'm a Software Engineer from Rochester, NY</h3>
 	</section>
 
 	<section class="features">
-		<p>Quickly a little more about me, I'm a 26 year go</p>
-		<hr>
 		<ul class="grid">
 			<li>
 				<i class="fa fa-file-code-o"></i>
@@ -75,43 +52,10 @@
 		</ul>
 		<br />
 		<br />
-		<a class="twitter-timeline" data-lang="en" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/Repkam09?ref_src=twsrc%5Etfw">Tweets by Repkam09</a>
-		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</section>
 
-	<footer>
-		<p>© Mark Repka 2017. All rights reserved. View Source on
-			<a href="https://github.com/repkam09/website-react-2">GitHub.</a>
-		</p>
-		<ul>
-			<li>
-				<a href="https://twitter.com/Repkam09">
-					<i class="fa fa-twitter-square"></i>
-				</a>
-			</li>
-			<li>
-				<a href="https://www.facebook.com/repkam09">
-					<i class="fa fa-facebook-square"></i>
-				</a>
-			</li>
-			<li>
-				<a href="https://telegram.me/repkam09">
-					<i class="fa fa-telegram"></i>
-				</a>
-			</li>
-			<li>
-				<a href="https://github.com/repkam09">
-					<i class="fa fa-github-square"></i>
-				</a>
-			</li>
-			<li>
-				<a href="https://www.linkedin.com/in/markrepka/">
-					<i class="fa fa-linkedin-square"></i>
-				</a>
-			</li>
-		</ul>
-	</footer>
-	<script src="/js/bundle.js"></script>
+	<footer id="page-footer"></footer>
+	<script src="/inc/js/bundle.js"></script>
 </body>
 
 </html>

@@ -11,14 +11,15 @@
   "license": "MIT",
   "dependencies": {
     "path": "^0.12.7",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "webpack": "^3.5.6",
-    "webpack-dev-server": "^2.7.1"
+    "react": "latest",
+    "react-dom": "latest",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
   },
   "scripts": {
     "build": "webpack",
-    "serve": "webpack-dev-server --colors --content-base dist/app/ --inline --progress"
+    "serve": "webpack-dev-server --colors --content-base dist/app/ --inline --progress",
+    "devserver": "npm run build && http-server -p 8082 ./build/"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

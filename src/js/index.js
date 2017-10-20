@@ -66,3 +66,22 @@ if (elementNowPlaying) {
     const nowplaying = React.createElement(require("./ui/music.jsx"));
     ReactDOM.render(nowplaying, elementNowPlaying);
 }
+
+
+var pageheader = document.getElementById("page-header");
+if (pageheader) {
+    const element = React.createElement(require("./ui/Header.jsx"));
+    ReactDOM.render(element, pageheader);
+}
+
+var pagefooter = document.getElementById("page-footer");
+if (pagefooter) {
+    const element = React.createElement(require("./ui/Footer.jsx"));
+    ReactDOM.render(element, pagefooter);
+}
+
+var pagehero = document.getElementById("index-hero");
+if (pagehero) {
+    const element = React.createElement(require("./ui/Hero.jsx"));
+    ReactDOM.render(element, pagehero);
+}
